@@ -51,12 +51,13 @@ public class Main extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        panel_header.setBackground(new java.awt.Color(255, 204, 51));
+        panel_header.setBackground(new java.awt.Color(0, 153, 255));
         panel_header.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/aa.png"))); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Stencil", 1, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Manajemen Rental Elektronik Menggunakan BST");
         jLabel2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -81,12 +82,13 @@ public class Main extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        panel_menu.setBackground(new java.awt.Color(255, 204, 51));
+        panel_menu.setBackground(new java.awt.Color(0, 153, 255));
         panel_menu.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jPanel1.setBackground(new java.awt.Color(255, 102, 0));
+        jPanel1.setBackground(new java.awt.Color(51, 255, 255));
         jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
+        jLabel3.setBackground(new java.awt.Color(0, 255, 255));
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("MAIN MENU");
@@ -192,8 +194,9 @@ public class Main extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        panel_footer.setBackground(new java.awt.Color(255, 204, 0));
+        panel_footer.setBackground(new java.awt.Color(0, 153, 255));
 
+        txt_waktu.setForeground(new java.awt.Color(255, 255, 255));
         txt_waktu.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txt_waktu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/C3M (82).png"))); // NOI18N
 
@@ -208,7 +211,7 @@ public class Main extends javax.swing.JFrame {
             .addComponent(txt_waktu, javax.swing.GroupLayout.DEFAULT_SIZE, 39, Short.MAX_VALUE)
         );
 
-        panel_body.setBackground(new java.awt.Color(255, 0, 0));
+        panel_body.setBackground(new java.awt.Color(51, 255, 255));
 
         javax.swing.GroupLayout panel_bodyLayout = new javax.swing.GroupLayout(panel_body);
         panel_body.setLayout(panel_bodyLayout);
